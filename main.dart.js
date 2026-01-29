@@ -29830,12 +29830,12 @@ s=b.a
 if(B.d.bY(s,"TRK"))s=q.a="Cami\xf3n"
 else if(B.d.bY(s,"VAN")){q.a=r
 s=r}else s="Auto"
-q.b="./images/autos/"
-switch(s.toLowerCase()){case"cami\xf3n":q.b="./images/autos/trk.png"
+q.b="./assets/images/autos/"
+switch(s.toLowerCase()){case"cami\xf3n":q.b="./assets/images/autos/trk.png"
 break
-case"furgoneta":q.b="./images/autos/van.png"
+case"furgoneta":q.b="./assets/images/autos/van.png"
 break
-default:q.b="./images/autos/car.png"
+default:q.b="./assets/images/autos/car.png"
 break}q.c=q.d=q.e=null
 switch(b.d.a){case 0:q.e=p.geK()
 q.d=B.dz
@@ -107183,11 +107183,11 @@ if(o==null)r=p
 else{if(o.d)o.cr()
 o=o.b
 r=o}if(r==null)r=""
-switch(J.biZ(s)){case"cami\xf3n":case"truck":q="./images/autos/trk.png"
+switch(J.biZ(s)){case"cami\xf3n":case"truck":q="./assets/images/autos/trk.png"
 break
-case"furgoneta":case"van":q="./images/autos/van.png"
+case"furgoneta":case"van":q="./assets/images/autos/van.png"
 break
-case"auto":case"car":default:q="./images/autos/car.png"
+case"auto":case"car":default:q="./assets/images/autos/car.png"
 break}o=A.ad(8)
 n=A.c4(B.cv,1)
 return A.a7(p,A.ao(A.a([A.a7(p,A.qp(A.ad(6),A.auI(q,new A.aZ6(),B.jV,1/0,1/0),B.c3),B.i,p,p,new A.ac(B.o8,p,n,o,p,p,B.q),p,60,p,B.oA,p,p,60),B.am,A.b2(A.P(r,p,p,p,p,B.akU,p,p,p),1)],t.p),B.m,B.h,B.k),B.i,p,p,p,p,p,p,B.eh,p,p,p)},
@@ -108449,9 +108449,9 @@ case 3:return a.gu4()}},
 aJ4(a){switch(a.c.a){case 0:return B.av
 case 1:return B.p6
 case 2:return B.pb}},
-auo(a){switch(a.c.a){case 0:return"./images/autos/trk.png"
-case 1:return"./images/autos/van.png"
-case 2:return"./images/autos/car.png"}},
+auo(a){switch(a.c.a){case 0:return"./assets/images/autos/trk.png"
+case 1:return"./assets/images/autos/van.png"
+case 2:return"./assets/images/autos/car.png"}},
 atP(a,b){if(b<20)return a.gu4()
 if(b<40)return a.gCq()
 return a.gjm()}}
